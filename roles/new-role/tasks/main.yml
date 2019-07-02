@@ -1,2 +1,4 @@
 ---
 # tasks file for new-role
+- name: shell out some nonsense
+  shell: echo "This is master branch"
