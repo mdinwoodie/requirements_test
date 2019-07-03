@@ -10,4 +10,4 @@
           dest: /etc/init.d
           owner: root
           group: root
-          mode: 755
+          mode: 0755
