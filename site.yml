@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+
+    - block:
+      - name: install BIOS_Validator script
+        copy:
+          src: README
+          dest: /etc/init.d
+          owner: root
+          group: root
+          mode: 755
