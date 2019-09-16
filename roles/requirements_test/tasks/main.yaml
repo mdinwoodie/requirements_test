@@ -1,4 +1,3 @@
 ---
-# tasks file for galaxy-test
-- name: shell out something
-  shell: echo "hello world"
+  - debug:
+    msg: "This is the first message"
